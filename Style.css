@@ -1,3 +1,13 @@
+body
+{
+    background-color: #fff;
+    color: #333;
+    font-family: 'Malgun Gothic', sans-serif;
+    font-size: 10pt;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 h1, h2, h3, h4, h5, h6, .toc_title
 {
     color: #06c;
