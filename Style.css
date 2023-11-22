@@ -17,9 +17,16 @@ h1
   margin-bottom: 1em;
 }
 
-h2, h3
+h2
 {
   font-size: 14pt;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h3
+{
+  font-size: 12pt;
   color: black;
   margin-top: 2em;
   margin-bottom: 1em;
