@@ -68,7 +68,7 @@
             </li>
             <li>
                 아래는 자료형의 줄임말을 나타냄.<br/>
-                <pre>   자료형 줄임말</pre>
+                <pre>       자료형 줄임말</pre>
                 <pre>char        -> c</pre>
                 <pre>short       -> s</pre>
                 <pre>int         -> i or n(return값일 경우)</pre>
@@ -77,11 +77,11 @@
                 <pre>float       -> f</pre>
                 <pre>double      -> d</pre><br/>
 
-                <pre>unsigned char           -> uc</pre>
-                <pre>unsigned short          -> us</pre>
-                <pre>unsigned int            -> un</pre>
-                <pre>unsgiend long           -> ul</pre>
-                <pre>unsigned long long      -> ull</pre><br/>
+                <pre>unsigned char      -> uc</pre>
+                <pre>unsigned short     -> us</pre>
+                <pre>unsigned int       -> un</pre>
+                <pre>unsgiend long      -> ul</pre>
+                <pre>unsigned long long -> ull</pre><br/>
 
                     ex. unsigned int unLogLevel = 0;
                 </p>
@@ -90,31 +90,32 @@
         <h3>Pointer Naming</h3>
         <ul>
             <li>
-                Structure에 대한 이름을 설정할 때에는 시작을 "st"로 하고 해당 Structure의 특징을 쓴 뒤에 "_t"를 붙이는 것을 기본으로 한다.
+                Pointer에 대한 이름을 설정할 때에는 시작을 "p"로 하고 해당 Pointer의 이름을 쓰는 것을 기본으로 한다.
             </li>
             <li>
-                그리고 Structure가 나타내는 특징을 명사의 형식으로 생성하고 명사의 시작 문자는 대문자로 생성한다.
-                <p>ex.  stAlarmInfo_t</p>
+                그리고 Pointer가 나타내는 특징을 명사의 형식으로 생성하고 명사의 시작 문자는 대문자로 생성한다.
+                <p>ex.  pAlarm</p>
             </li>
         </ul>
         <h3>Global Variable Naming</h3>
         <ul>
             <li>
-                Structure에 대한 이름을 설정할 때에는 시작을 "st"로 하고 해당 Structure의 특징을 쓴 뒤에 "_t"를 붙이는 것을 기본으로 한다.
+                Global로 선언할 Variable에 대한 이름을 설정할 때에는 시작을 "g"로 하는 것을 기본으로 한다.
             </li>
             <li>
-                그리고 Structure가 나타내는 특징을 명사의 형식으로 생성하고 명사의 시작 문자는 대문자로 생성한다.
-                <p>ex.  stAlarmInfo_t</p>
+                그리고 해당 Variable의 자료형을 추가로 나타내고 명사의 형식으로 생성하고 명사의 시작 문자는 대문자로 생성한다.
+                <p>ex.  unsigned int gunRowCnt = 0;</p>
             </li>
         </ul>
         <h3>#define Naming</h3>
         <ul>
             <li>
-                Structure에 대한 이름을 설정할 때에는 시작을 "st"로 하고 해당 Structure의 특징을 쓴 뒤에 "_t"를 붙이는 것을 기본으로 한다.
+                #define을 써서 사용할 상수에 대한 이름을 설정할 때에는 시작을 모듈이름으로 하고 
+                해당 상수를 사용하는 위치(ex. Thread)와 특징을 대문자로 쓰는 것을 기본으로 한다.
             </li>
             <li>
-                그리고 Structure가 나타내는 특징을 명사의 형식으로 생성하고 명사의 시작 문자는 대문자로 생성한다.
-                <p>ex.  stAlarmInfo_t</p>
+                그리고 각각의 단어는 언더바(_)를 사용하여 구분한다.
+                <p>ex.  #define NM_WORKING_THREAD_MAX_QUEUE_COUNT 10000</p>
             </li>
         </ul>
     </body>
