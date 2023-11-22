@@ -29,7 +29,7 @@
         </ol>
         <hr>
 
-        <h2>Naming</h2>
+        <h2>1. Naming</h2>
         <hr>
         <h3>File Naming</h3>
         <ul>
@@ -64,11 +64,27 @@
         <h3>Variable Naming</h3>
         <ul>
             <li>
-                Structure에 대한 이름을 설정할 때에는 시작을 "st"로 하고 해당 Structure의 특징을 쓴 뒤에 "_t"를 붙이는 것을 기본으로 한다.
+                Variable에 대한 이름을 설정할 때에는 시작을 Variable의 자료형의 줄임말을 붙이는 것을 기본으로 한다.
             </li>
             <li>
-                그리고 Structure가 나타내는 특징을 명사의 형식으로 생성하고 명사의 시작 문자는 대문자로 생성한다.
-                <p>ex.  stAlarmInfo_t</p>
+                아래는 자료형의 줄임말을 나타냄.
+                <p>
+                    char        -> c<br/>
+                    short       -> s<br/>
+                    int         -> i or n(return값일 경우)<br/>
+                    long        -> l<br/>
+                    long long   -> ll<br/>
+                    float       -> f<br/>
+                    double      -> d<br/><br/>
+
+                    unsigned char           -> uc<br/>
+                    unsigned short          -> us<br/>
+                    unsigned int            -> un<br/>
+                    unsgiend long           -> ul<br/>
+                    unsigned long long      -> ull<br/><br/>
+
+                    ex. unsigned int unLogLevel = 0;
+                </p>
             </li>
         </ul>
         <h3>Pointer Naming</h3>
