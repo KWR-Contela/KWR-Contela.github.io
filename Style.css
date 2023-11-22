@@ -44,3 +44,15 @@ p, pre
 {
   font-weight: bold;
 }
+
+div
+{
+  border: 0px;
+  border-radius: 8px;
+  background-color: lightgray;
+  margin: 1px;
+  padding: 1px;
+  width: 400px;
+  text-indent: 5px;
+  font-weight: bold;
+}
