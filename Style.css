@@ -28,8 +28,7 @@ h3
 {
   font-size: 16pt;
   color: black;
-  margin-top: 2em;
-  margin-bottom: 1em;
+  margin-bottom: 5px;
 }
 
 hr
@@ -37,6 +36,9 @@ hr
   display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  height: 3px;
+  background-color: gray;
+  border: 0;
 }
 
 p, pre
