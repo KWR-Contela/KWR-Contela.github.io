@@ -2,8 +2,7 @@ body
 {
   background-color: #fff;
   color: #333;
-  font-family: 'Malgun Gothic', sans-serif;
-  font-size: 10pt;
+  font-size: 11pt;
   margin-right: 100px;
   margin-left: 100px;
 }
@@ -11,7 +10,7 @@ body
 h1
 {
   text-align: center;
-  font-size: 18pt;
+  font-size: 22pt;
   color: #06c;
   margin-top: 2em;
   margin-bottom: 1em;
@@ -20,14 +19,14 @@ h1
 h2
 {
   color: #06c;
-  font-size: 15pt;
-  margin-top: 2em;
+  font-size: 18pt;
+  margin-top: 1.5em;
   margin-bottom: 1em;
 }
 
 h3
 {
-  font-size: 14pt;
+  font-size: 16pt;
   color: black;
   margin-top: 2em;
   margin-bottom: 1em;
@@ -73,4 +72,9 @@ th
 th, td
 {
   border: 2px solid black;
+}
+
+li
+{
+  line-height: 2;
 }
