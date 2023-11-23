@@ -45,6 +45,11 @@ p, pre
   font-weight: bold;
 }
 
+pre
+{
+  text-indent: 5px;
+}
+
 div
 {
   border: 0px;
@@ -53,6 +58,5 @@ div
   margin: 1px;
   padding: 1px;
   width: 400px;
-  text-indent: 5px;
   font-weight: bold;
 }
