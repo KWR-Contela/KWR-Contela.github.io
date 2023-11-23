@@ -55,3 +55,18 @@ div
   width: 400px;
   font-weight: bold;
 }
+
+table
+{
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 400px;
+  text-align: center;
+}
+
+tr
+{
+  background-color: lightskyblue;
+  border-left: none;
+  border-right: none;
+}
