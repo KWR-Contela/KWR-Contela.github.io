@@ -71,8 +71,3 @@ th
 {
   background-color: lightskyblue;
 }
-
-th:first-child, td:first-child
-{
-  border-left: none;
-}
