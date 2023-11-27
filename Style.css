@@ -1,10 +1,16 @@
+html
+{
+  background-color: #e7e7e7;
+}
+
 body
 {
+  max-width: 44em;
+  margin: 0 auto;
+  padding: .5em 3.5em 1em 3.5em;
   background-color: #fff;
+  border: .1em solid #c0c0c0;
   color: #333;
-  font-size: 11pt;
-  margin-right: 100px;
-  margin-left: 100px;
 }
 
 h1
@@ -41,21 +47,24 @@ hr
   border: 0;
 }
 
-p, pre
+p
 {
   font-weight: bold;
 }
 
+pre
+{
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+}
+
 div
 {
-  border: 0px;
-  border-radius: 8px;
-  background-color: lightgray;
-  margin: 1px;
-  padding: 1px;
-  width: 400px;
-  font-weight: bold;
-  line-height: 1;
+  border: 1px solid #d4cbb6;
+  border-radius: 0.3em;
+  background-color: #f2efe4;
+  margin: 1em 0 1em 3%;
+  padding: 0.8em 1.2em 0.4em;
 }
 
 table
