@@ -65,10 +65,12 @@ div
 
 table
 {
-  border: 2px solid black;
+  border: 1px solid #d4cbb6;
   border-collapse: collapse;
   width: 400px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 th
@@ -79,7 +81,7 @@ th
 
 th, td
 {
-  border: 2px solid black;
+  border: 1px solid #d4cbb6;
 }
 
 li
