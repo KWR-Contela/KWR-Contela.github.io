@@ -16,7 +16,6 @@ body
 h1
 {
   text-align: center;
-  font-size: 22pt;
   color: #06c;
   margin-top: 2em;
   margin-bottom: 1em;
@@ -24,15 +23,12 @@ h1
 
 h2
 {
-  color: #06c;
-  font-size: 18pt;
   margin-top: 1.5em;
   margin-bottom: 1em;
 }
 
 h3
 {
-  font-size: 16pt;
   color: black;
   margin-bottom: 5px;
 }
@@ -63,7 +59,7 @@ div
   border: 1px solid #d4cbb6;
   border-radius: 0.3em;
   background-color: #f2efe4;
-  margin: 1em 0 1em 3%;
+  margin: 1em 0 1em 0.5em;
   padding: 0.8em 1.2em 0.4em;
 }
 
@@ -88,5 +84,6 @@ th, td
 
 li
 {
-  line-height: 2;
+  margin-left: -0.8em;
+  margin-top: 0.7em;
 }
